@@ -13,7 +13,8 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<p>Website made with love by</p>
+			<p>  2021 - Website made with love by</p>
+			<img src="./img/fifi_white.png" alt="logo Fideline Bazana Ntomo">
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
