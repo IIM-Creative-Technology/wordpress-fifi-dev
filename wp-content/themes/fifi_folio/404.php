@@ -12,14 +12,14 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<section class="error-404 not-found">
+		<section class="error-404 not-found" id="centered">
 			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'fifi_folio' ); ?></h1>
+				<h1 class="page-title"><?php esc_html_e( 'Oops! Cette page est introuvable ...', 'fifi_folio' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'fifi_folio' ); ?></p>
-
+				<p><?php esc_html_e( 'Vous vous etes perdu lors de votre trajet... Vous pouvez essayer de prendre un notre chemin !', 'fifi_folio' ); ?></p>
+				<img src="img/404.png" alt="404 space illustration">
 
 			</div><!-- .page-content -->
 		</section><!-- .error-404 -->

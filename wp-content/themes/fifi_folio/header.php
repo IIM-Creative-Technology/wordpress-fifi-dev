@@ -26,7 +26,9 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'fifi_folio' ); ?></a>
 
 	<header id="masthead" class="site-header">
-
+	    <div class="logo">
+		<img src="./img/fifi_white.png" alt="logo Fideline Bazana Ntomo">
+		</div>
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'fifi_folio' ); ?></button>
 			<?php
