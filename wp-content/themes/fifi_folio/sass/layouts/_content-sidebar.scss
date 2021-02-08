@@ -9,6 +9,8 @@
 
 .site-header {
 	grid-area: header;
+	position: -webkit-sticky;
+	position: sticky;
 }
 
 .site-main {
