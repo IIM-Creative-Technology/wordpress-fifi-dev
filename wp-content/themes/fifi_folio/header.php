@@ -27,7 +27,7 @@
 
 	<header id="masthead" class="site-header">
 	    <div class="logo">
-		<img src="./img/fifi_white.png" alt="logo Fideline Bazana Ntomo">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fifi_white.png" alt="logo Fideline Bazana Ntomo">
 		</div>
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'fifi_folio' ); ?></button>

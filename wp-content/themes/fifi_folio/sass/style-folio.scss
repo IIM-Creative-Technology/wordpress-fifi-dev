@@ -1,3 +1,32 @@
 body{
     background-color: #010005;
 }
+
+section{
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap; 
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.logoContainer {
+    width: 40px;
+    margin-left: 20px;
+}
+
+.logoContainer img{
+    width: 100%;
+}

@@ -20,7 +20,7 @@ get_header();
 	<section>
 	<h1>Fideline Bazana Ntomo</h1>
 	</section>
-<div class="row">
+	<section>
 		<?php
 		if ( have_posts() ) :
 			/* Start the Loop */
@@ -37,7 +37,7 @@ get_header();
 	</p>
   </div>
 </div>
-</div>
+
 				<?php
 				/*
 				 * Include the Post-Type-specific template for the content.
@@ -50,7 +50,7 @@ get_header();
 
 			/*the_posts_navigation();*/
 			?>
-</div>
+
 			<?php
 		else :
 			?>
@@ -58,9 +58,8 @@ get_header();
 			<?php
 		endif;
 		?> 
-
+</section>
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

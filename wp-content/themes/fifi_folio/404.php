@@ -19,7 +19,7 @@ get_header();
 
 			<div class="page-content">
 				<p><?php esc_html_e( 'Vous vous etes perdu lors de votre trajet... Vous pouvez essayer de prendre un notre chemin !', 'fifi_folio' ); ?></p>
-				<img src="img/404.png" alt="404 space illustration">
+				<p><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/404.png" alt="404 space illustration"></p>
 
 			</div><!-- .page-content -->
 		</section><!-- .error-404 -->
