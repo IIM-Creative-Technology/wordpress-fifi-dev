@@ -2,6 +2,11 @@ body{
     background-color: #010005;
 }
 
+header{
+    height: 10vh;
+    background-color: red;
+}
+
 section{
     height: 100vh;
 }
@@ -24,9 +29,18 @@ img{
 
 .logoContainer {
     width: 40px;
+    margin: auto 0;
     margin-left: 20px;
 }
 
 .logoContainer img{
     width: 100%;
+}
+
+nav{
+    margin: auto 0;
+}
+
+footer{
+    text-align: center;
 }

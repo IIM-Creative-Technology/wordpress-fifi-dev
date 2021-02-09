@@ -21,6 +21,7 @@ get_header();
 	<h1>Fideline Bazana Ntomo</h1>
 	</section>
 	<section>
+		<div class="row">
 		<?php
 		if ( have_posts() ) :
 			/* Start the Loop */
@@ -37,7 +38,7 @@ get_header();
 	</p>
   </div>
 </div>
-
+</div>
 				<?php
 				/*
 				 * Include the Post-Type-specific template for the content.
