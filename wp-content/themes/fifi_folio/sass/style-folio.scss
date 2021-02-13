@@ -44,6 +44,7 @@ section{
 
 #section{
     height: 100vh;
+    border: 1px solid black;
 }
 
 .row{
@@ -60,6 +61,7 @@ img{
 
 .flex{
     display: flex;
+    justify-content: space-around;
 }
 
 .logoContainer {
@@ -86,11 +88,43 @@ nav ul{
 
 
 
+/* section à propos */
+
+.left_side{
+    width: 30vw;
+    position: relative;
+    margin: auto 0;
+    text-align: center;
+} 
 
 
+.left_side img{
+    border: 5px solid blue;
+}
+
+.back_img{
+    position: absolute;
+    z-index: -1;
+    right: -15px;
+    top: 15px;
+    width: 30vw;
+    opacity: 0.3;
+}
+
+.right_side{
+    width: 50vw;
+    margin-top: 15vh;
+}
+
+.right_side h2{
+    margin: 10px auto;
+}
 
 
-
+.right_side h1{
+    text-align: left;
+    margin: 5px auto 30px auto;
+}
 
 
 

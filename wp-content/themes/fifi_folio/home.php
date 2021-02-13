@@ -22,6 +22,26 @@ get_header();
 echo do_shortcode('[smartslider3 slider="3"]');
 ?>
 	</section>
+	<!--  -->
+	<section id="section" class="flex">
+	    <div  class="left_side">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/profil_img.jpg" alt="Photo Fideline Bazana">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/profil_img.jpg" alt="Photo Fideline Bazana" class="back_img">
+		<p> - I am a web designer studient - </p>
+		</div>
+	    <div class="right_side">
+			<div>
+			<h2>Qui suis-je ?</h2>
+			<h1>FIDELINE BAZANA NTOMO</h1>
+			<p> Etudiante à L'IIM - Institut de l'Internet et du Multimédia pour le Mastère Interactivité et UX Design, je souhaite devenir à terme Développeur Web.
+			Ma formation à l’IIM m’a permis d’acquérir des nombreuses competences en developpement Web et en web design, notament sur l’utilation de differents languages de programmation et outils de conception d’expérience utilisateur que je voudrais appliquer sur des projets concrets.</p>
+			<div>
+			<a href="#">Lire Plus</a>
+			<button>Telecharger</button>
+			</div>
+			</div>
+		</div>
+	</section>
 	<section id="section">
 		<div class="row">
 		<?php
