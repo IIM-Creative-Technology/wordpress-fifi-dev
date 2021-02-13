@@ -47,6 +47,7 @@ section{
     border: 1px solid black;
 }
 
+
 .row{
     display: flex;
     flex-direction: row;
@@ -126,7 +127,20 @@ nav ul{
     margin: 5px auto 30px auto;
 }
 
+.right_side a{
+    color: black;
+}
 
+.right_side .button{
+    color: white;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    margin: auto 15px;
+    float: right;
+}
 
 
 

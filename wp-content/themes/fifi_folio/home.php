@@ -36,8 +36,8 @@ echo do_shortcode('[smartslider3 slider="3"]');
 			<p> Etudiante à L'IIM - Institut de l'Internet et du Multimédia pour le Mastère Interactivité et UX Design, je souhaite devenir à terme Développeur Web.
 			Ma formation à l’IIM m’a permis d’acquérir des nombreuses competences en developpement Web et en web design, notament sur l’utilation de differents languages de programmation et outils de conception d’expérience utilisateur que je voudrais appliquer sur des projets concrets.</p>
 			<div>
-			<a href="#">Lire Plus</a>
-			<button>Telecharger</button>
+			<a href="http://wordpress.test/a-propos/">Lire Plus</a>
+			<a href="#" class="button" download="cv_fidelineBazanaNtomo.pdf">Télécharger Mon CV</a>
 			</div>
 			</div>
 		</div>
