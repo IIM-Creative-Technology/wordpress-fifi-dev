@@ -17,10 +17,12 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-	<section>
-	<h1>Fideline Bazana Ntomo</h1>
+	<section id="section">
+	<?php
+echo do_shortcode('[smartslider3 slider="3"]');
+?>
 	</section>
-	<section>
+	<section id="section">
 		<div class="row">
 		<?php
 		if ( have_posts() ) :

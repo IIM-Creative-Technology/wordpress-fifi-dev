@@ -22,16 +22,27 @@
   }
 
 body{
-    background-color: #010005;
+    background-color: white;
+    color: black;
+}
+
+h1{
+    margin: 50px 0;
+    text-align: center;
 }
 
 header{
-    height: 10vh;
+    height: auto;
     width: 100%;
-    background-color: rgba(146, 146, 146, 0.062);
+    background-color: white;
 }
 
 section{
+    height: auto;
+}
+
+
+#section{
     height: 100vh;
 }
 
@@ -49,7 +60,6 @@ img{
 
 .flex{
     display: flex;
-    justify-content: space-around;
 }
 
 .logoContainer {

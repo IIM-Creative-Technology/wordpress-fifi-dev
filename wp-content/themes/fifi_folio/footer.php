@@ -16,7 +16,7 @@
 			<div class="flex">
 			<p>  2021 - Website made with love by</p>
 			<div class="logoContainer">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fifi_white.png" alt="logo Fideline Bazana Ntomo">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fifi_black.png" alt="logo Fideline Bazana Ntomo">
 			</div>	
 			</div>
 		</div><!-- .site-info -->
