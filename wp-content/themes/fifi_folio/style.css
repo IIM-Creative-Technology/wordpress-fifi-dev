@@ -522,10 +522,10 @@ a {
   color: #4169e1;
 }
 a:visited {
-  color: #800080;
+  color: #fff;
 }
 a:hover, a:focus, a:active {
-  color: #191970;
+  color: #EA608A;
 }
 a:focus {
   outline: thin dotted;
@@ -935,18 +935,18 @@ textarea {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white;
+  background: #fff;
   border-radius: 8px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: white;
+  background: #fff;
 }
 
 body {
-  background-color: white;
-  color: black;
+  background-color: #101024;
+  color: #ffffff;
 }
 
 h1 {
@@ -957,7 +957,6 @@ h1 {
 header {
   height: auto;
   width: 100%;
-  background-color: white;
 }
 
 section {
@@ -966,7 +965,6 @@ section {
 
 #section {
   height: 100vh;
-  border: 1px solid black;
 }
 
 .row {
@@ -989,7 +987,7 @@ img {
 .logoContainer {
   width: 45px;
   margin: auto 0;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .logoContainer img {
@@ -1044,11 +1042,10 @@ nav ul {
 }
 
 .right_side a {
-  color: black;
+  color: #ffffff;
 }
 
 .right_side .button {
-  color: white;
   float: right;
 }
 
@@ -1059,8 +1056,50 @@ nav ul {
   margin: auto 15px;
 }
 
-footer {
+.single-post .post-thumbnail {
+  display: none;
+}
+
+/* CARD */
+.card {
+  border: 3px solid #fff;
+  padding-bottom: 20px;
+  margin: 10px auto;
+}
+
+.card-title {
   text-align: center;
+  font-weight: 700;
+}
+
+.card-img-top {
+  background-color: #fff;
+}
+
+.card-body {
+  margin: auto 5px;
+}
+
+/* FOOTER*/
+.footer {
+  text-align: center;
+  width: 25vw;
+  display: flex;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 720px) {
+  #section {
+    height: auto;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .footer {
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
